@@ -87,15 +87,15 @@ class Fighter:
                     print "[" + "super potion" + "  x" + str(superpotion_num) + "]"
                 print "[Exit]"
                 itemaction = raw_input(":")
-                if itemaction == "potion":
+                if itemaction.lower() == "potion":
                     self.useitem(Potion)
                     print "\n" + self.name + " gained 10 health!"
                     break
-                elif itemaction == "super potion":
+                elif itemaction.lower() == "super potion":
                     self.useitem(SuperPotion)
                     print "\n" + self.name + " gained 20 health!"
                     break
-                elif itemaction == "exit" or "Exit":
+                elif itemaction.lower() == "exit":
                     self.reset = True
                     break
                 else:
@@ -148,16 +148,16 @@ def heroturn():
         healthstat()
         print "\n" + goodguy.name + "'s turn!\n========================"
         action = raw_input("What do you want to do?: \n(Fight, Skill, Magic, Item, Run)\n:")
-        if action == "Fight":
+        if action.lower() == "fight":
             goodguy.fight(badguy)
             healthstat()
-        elif action == "Skill":
+        elif action.lower() == "skill":
             goodguy.skill()
-        elif action == "Magic":
+        elif action.lower() == "magic":
             goodguy.magic()
-        elif action == "Item":
+        elif action.lower() == "item":
             goodguy.item()
-        elif action == "Run":
+        elif action.lower() == "run":
             goodguy.escape()
         else:
             print "Incorrect input, Try Again.\n"
