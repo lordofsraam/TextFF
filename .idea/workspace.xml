@@ -34,7 +34,7 @@
       <file leaf-file-name="text.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="46" selection-start="4629" selection-end="4629" vertical-scroll-proportion="0.057233706" vertical-offset="2378" max-vertical-offset="3128">
+            <state line="142" column="46" selection-start="4629" selection-end="4629" vertical-scroll-proportion="0.0031796503" vertical-offset="2412" max-vertical-offset="3128">
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -136,7 +136,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,16 +156,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -317,6 +317,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,9 +341,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -560,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1058">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
@@ -583,10 +576,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="46" selection-start="4629" selection-end="4629" vertical-scroll-proportion="0.057233706" vertical-offset="2378" max-vertical-offset="3128">
+        <state line="142" column="46" selection-start="4629" selection-end="4629" vertical-scroll-proportion="0.0031796503" vertical-offset="2412" max-vertical-offset="3128">
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1058">
+          <folding />
         </state>
       </provider>
     </entry>
