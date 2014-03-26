@@ -87,15 +87,15 @@ class Fighter:
                     print "[" + "super potion" + "  x" + str(superpotion_num) + "]"
                 print "[Exit]"
                 itemaction = raw_input(":")
-                if itemaction == "potion":
+                if itemaction.lower() == "potion":
                     self.useitem(Potion)
                     print "\n" + self.name + " gained 10 health!"
                     break
-                elif itemaction == "super potion":
+                elif itemaction.lower() == "super potion":
                     self.useitem(SuperPotion)
                     print "\n" + self.name + " gained 20 health!"
                     break
-                elif itemaction == "exit" or "Exit":
+                elif itemaction.lower() == "exit":
                     self.reset = True
                     break
                 else:
